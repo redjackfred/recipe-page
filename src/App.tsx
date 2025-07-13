@@ -1,10 +1,11 @@
 import "./App.css";
+import Recipe from "./Recipe";
 
 function App() {
 	return (
-		<>
-			<h1 className="text-3xl">hi</h1>
-		</>
+		<div className="bg-stone-100 w-full h-full flex flex-col md:justify-center md:items-center">
+			<Recipe />
+		</div>
 	);
 }
 

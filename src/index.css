@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@font-face {
+	font-family: "Young Serif";
+	src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Outfit";
+	src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+@theme {
+	--color-rose-800: #7a284e;
+	--color-rose-50: #fff7fb;
+	--color-stone-900: #312e2c;
+	--color-stone-600: #5f564d;
+	--color-stone-150: #e3ddd7;
+	--color-stone-100: #f3e5d7;
+	--color-brown-800: #854632;
+	--color-white: #ffffff;
+	--font-young-serif: "Young Serif", serif;
+	--font-outfit: "Outfit", sans-serif;
+	--spacing-1600: 128px;
+	--spacing-600: 48px;
+	--spacing-500: 40px;
+	--spacing-400: 32px;
+	--spacing-300: 24px;
+	--spacing-200: 16px;
+	--spacing-150: 12px;
+	--spacing-100: 8px;
+}
+
+@layer utilities {
+	.text-preset-1 {
+		@apply text-[36px] md:text-[40px] leading-none tracking-normal font-young-serif font-normal;
+	}
+	.text-preset-2 {
+		@apply text-[28px] leading-none tracking-normal font-young-serif;
+	}
+	.text-preset-3 {
+		@apply text-[20px] leading-none tracking-normal font-outfit font-semibold;
+	}
+	.text-preset-4 {
+		@apply text-[16px] leading-normal tracking-normal font-outfit;
+	}
+	.text-preset-4-bold {
+		@apply text-[16px] leading-normal tracking-normal font-outfit font-bold;
+	}
+}
