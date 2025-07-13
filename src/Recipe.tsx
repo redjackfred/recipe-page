@@ -24,7 +24,7 @@ export default function Recipe() {
 					<h3 className="text-rose-800 text-preset-3 mb-4">Preparation time</h3>
 					<ul className="list-disc marker:text-rose-800 text-preset-4 text-stone-600 list-outside pl-6 space-y-2">
 						<li className="pl-4 text-preset-4">
-							<b>Total:</b> Approximately 10
+							<b>Total:</b> Approximately 10 minutes
 						</li>
 						<li className="pl-4 text-preset-4">
 							<b>Preparation:</b> 5 minutes
@@ -97,22 +97,28 @@ export default function Recipe() {
 					<table className="text-stone-600 w-full">
 						<tbody>
 							<tr className="border-b border-table-line border-stone-150 px-4 w-full">
-								<td className="pb-3 px-3">Calories</td>
-								<td className="pb-3 px-3 text-brown-800 text-preset-4-bold">
+								<td className="pb-3 pl-8 pr-4">Calories</td>
+								<td className="pb-3 pl-8 pr-4 text-brown-800 text-preset-4-bold">
 									277kcal
 								</td>
 							</tr>
 							<tr className="border-b border-table-line border-stone-150">
-								<td className="p-3">Carbs</td>
-								<td className="p-3 text-brown-800 text-preset-4-bold">0g</td>
+								<td className="py-3 pl-8 pr-4">Carbs</td>
+								<td className="py-3 pl-8 pr-4 text-brown-800 text-preset-4-bold">
+									0g
+								</td>
 							</tr>
 							<tr className="border-b border-table-line border-stone-150">
-								<td className="p-3">Protein</td>
-								<td className="p-3 text-brown-800 text-preset-4-bold">20g</td>
+								<td className="py-3 pl-8 pr-4">Protein</td>
+								<td className="py-3 pl-8 pr-4 text-brown-800 text-preset-4-bold">
+									20g
+								</td>
 							</tr>
 							<tr>
-								<td className="p-3">Fat</td>
-								<td className="p-3 text-brown-800 text-preset-4-bold">22g</td>
+								<td className="py-3 pl-8 pr-4">Fat</td>
+								<td className="py-3 pl-8 pr-4 text-brown-800 text-preset-4-bold">
+									22g
+								</td>
 							</tr>
 						</tbody>
 					</table>
