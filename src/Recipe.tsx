@@ -2,13 +2,13 @@ import image from "./assets/images/image-omelette.jpeg";
 export default function Recipe() {
 	return (
 		<article className="flex flex-col justify-center items-center bg-white md:mx-[76px] md:my-[128px] xl:mx-auto xl:max-w-[736px] rounded-3xl">
-			<div className="md:p-10 w-full ">
+			<div className="md:px-10 md:pt-10 w-full ">
 				<img
 					src={image}
 					className="h-[171px] md:h-[300px] w-full md:rounded-xl"
 				/>
 			</div>
-			<div className="p-8 py-10 md:p-10 flex flex-col justify-center items-center gap-8">
+			<div className="p-8 py-10 md:px-10 md:pb-10 flex flex-col justify-center items-center gap-8">
 				<header>
 					<h1 className="text-preset-1 text-stone-900 mb-6">
 						Simple Omelette Recipe
