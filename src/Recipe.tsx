@@ -98,25 +98,25 @@ export default function Recipe() {
 						<tbody>
 							<tr className="border-b border-table-line border-stone-150 px-4 w-full">
 								<td className="pb-3 pl-8 pr-4">Calories</td>
-								<td className="pb-3 pl-8 text-brown-800 text-preset-4-bold">
+								<td className="pb-3 pr-8 text-brown-800 text-preset-4-bold">
 									277kcal
 								</td>
 							</tr>
 							<tr className="border-b border-table-line border-stone-150">
 								<td className="py-3 pl-8 pr-4">Carbs</td>
-								<td className="py-3 pl-8 text-brown-800 text-preset-4-bold">
+								<td className="py-3 pr-8 text-brown-800 text-preset-4-bold">
 									0g
 								</td>
 							</tr>
 							<tr className="border-b border-table-line border-stone-150">
 								<td className="py-3 pl-8 pr-4">Protein</td>
-								<td className="py-3 pl-8 text-brown-800 text-preset-4-bold">
+								<td className="py-3 pr-8 text-brown-800 text-preset-4-bold">
 									20g
 								</td>
 							</tr>
 							<tr>
 								<td className="py-3 pl-8 pr-4">Fat</td>
-								<td className="py-3 pl-8 text-brown-800 text-preset-4-bold">
+								<td className="py-3 pr-8 text-brown-800 text-preset-4-bold">
 									22g
 								</td>
 							</tr>
